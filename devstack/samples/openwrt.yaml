@@ -12,7 +12,7 @@ service_properties:
 vdus:
   vdu1:
     id: vdu1
-    vm_image: OpenWRT
+    vm_image: openwrt-15.05-x86-kvm_guest-combined-ext4
     instance_type: m1.tiny
     service_type: firewall
     mgmt_driver: openwrt
